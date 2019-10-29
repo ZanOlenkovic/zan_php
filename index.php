@@ -6,7 +6,8 @@
         <h1> Dainu Tekstai </h1>
         <h2> Paragrafo Daina </h2>
         <p> As tok vienisas jaunas paragrafas... </p>
-        <!--<p> Mindau svetimo kodo gatves...</p> -->
-        <p
+        <?php 
+        // <p> Mindau svetimo kodo gatves...</p>
+        ?>  
     </body>
 </html>
