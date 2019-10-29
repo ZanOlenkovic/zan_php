@@ -1,7 +1,7 @@
 <html>
   <head>
    
-      <title> <?php print 'As' . date('l') . 'ir PHP' ?> </title>
+      <title> <?php print 'As ' . date('l') . ' ir PHP' ?> </title>
   </head>
   <body>
     <header>
