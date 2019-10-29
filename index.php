@@ -1,12 +1,12 @@
 <html>
   <head>
    
-      <title> PHP lydes ir <?php print date('Y-m-d' , strtotime('+1 day')); ?> </title>
+      <title> Komentarai</title>
   </head>
   <body>
-    <header>
-            <h1> <b> Zan </b> - PHP su manimi buvo <?php print date('h' , strtotime('-1 hour')). ' valanda!'; ?></h1>
-            <p>  <?php print date('Y' , strtotime('+1 year')); ?> ne uz kalnu! </p>
-    </header>
+            <h1> Dainu Tekstai </h1>
+            <h2> Paragrafo Daina </h2>
+            <p> As tok vienisas jaunas paragrafas... </p>
+            <p> Mindau svetimo kodo gatves...</p>
   </body>
 </html>
