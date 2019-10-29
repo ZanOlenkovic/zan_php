@@ -1,13 +1,12 @@
 <html>
     <head>
-        <title> Komentarai</title>
+        <title> PHP lydes ir <?php print date('Y' , strtotime('+'. rand(0,10) . 'year') ) ?></title>
     </head>
     <body>
-        <h1> Dainu Tekstai </h1>
+        <h1> <b>Zan</b> - Galbut turesiu <?php print rand(1,5) ?> vaiku(us)! </h1>
         <h2> Paragrafo Daina </h2>
-        <p> As tok vienisas jaunas paragrafas... </p>
-        <?php 
-        // <p> Mindau svetimo kodo gatves...</p>
-        ?>  
+         <p> D. Trump'as nebebus prezidentu: <?php print date('Y' , strtotime('+' . rand(2,10) . 'year')). date(' m-d') ?></p>
+      
+
     </body>
 </html>
