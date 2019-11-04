@@ -1,30 +1,37 @@
 <?php
-$sunny= rand(0,1);
-$img= 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVCkNjDgTJJlhVWss32UYpVyH9xGdBfD_WAgr9Q1fhu1KQ8knw&s';
-$img_2= 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqTftJvCRKSNzeUTzWQndmtTaXcTLKm2JArTKDuyDroy14SiM&s';
-if($sunny){
-    $s_1='Sauleta';
-    $img_3=$img;
+$bool = true;
+$int = 1;
+if ($bool == $int) {
+    $li_1 = 'Lygus';
+} elseif ($bool === $int) {
+    $li_1 = 'Identiski';
 }
-else{
-    $s_1='Debesuota';
-    $img_3=$img_2;
+$str = '1';
+$bool = true;
+if ($str == $bool) {
+    $li_2 = 'Lygus';
+} elseif ($str === $bool) {
+    $li_2 = 'Lygus';
 }
+$flt = 1.23;
+$str = '1.23';
+if ($flt == $str) {
+    $li_3 = 'Lygus';
+} elseif ($flt === $str) {
+    $li_3 = 'Identiski';
+}
+$ly_1 = "Bool ir Integer: $li_1";
+$ly_2 = "Bool ir Integer: $li_2";
+$ly_3 = "Bool ir Integer: $li_3";
 ?>
 <html> 
     <head>
         <title><?php print 'orai' ?></title>
-        <style>
-            body {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-        </style>
     </head>
     <body>
-        <img src="<?php print $img_3; ?>" </img>
-        <p><?php print $s_1; ?></p>
+        <p><?php print $ly_1; ?></p>
+        <p><?php print $ly_2; ?></p>
+        <p><?php print $ly_3; ?></p>
     </body>
-  
+
 </html>
