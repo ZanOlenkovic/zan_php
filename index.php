@@ -7,7 +7,7 @@
                 flex-direction: column;
                 align-items: center;
             }
-            .b-<?php print date('s')?> {
+            .b-<?php print date('s') ?> {
                 width: <?php print date('1s'); ?>vh;
                 height: <?php print date('1s'); ?>vh;
                 background-size: cover;
@@ -18,11 +18,11 @@
                 width: 60vh;
                 background-image: url(https://www.ready.gov/sites/default/files/2019-09/hero_nuclear_blast.jpg);
             }
-          </style>
+        </style>
     </head>
     <body>
-        <div class="b-<?php print date('s');?>"></div>
-        
+        <div class="b-<?php print date('s'); ?>"></div>
+
         <p> <?php print date('s'); ?></p>
     </body>
 </html>
